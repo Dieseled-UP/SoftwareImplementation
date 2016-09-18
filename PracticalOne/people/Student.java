@@ -2,17 +2,17 @@ package people;
 
 public class Student extends Person {
 
-	private String studentID = "";
+	private String studentID;
 	
 	public Student() {
 		
-		super(null, 0);
+		super(null, 0,null);
 		this.studentID = null;
 	}
 	
 	public Student(String name, int age, String studentID) {
 		
-		super(name, age);
+		super(name, age, null);
 		this.studentID = studentID;
 	}
 	
