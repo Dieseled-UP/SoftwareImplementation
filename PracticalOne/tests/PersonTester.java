@@ -8,9 +8,7 @@ public class PersonTester {
 	public static void main(String [] args) {
 
 		/* 
-		 * We can create new Person objects,
-		 * Here is one set with null values and another
-		 * set with a name and an age
+		 * We can create new Person objects.
 		 */
 		Person dave = new Person("Dave", 32, new Address("1", "Port Road", "Letterkenny", "Donegal"));
 		Person sue = new Person("Sue", 24, new Address("Nakatomi Plaza", "Main Street", "Galway", "Galway"));

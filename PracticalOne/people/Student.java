@@ -21,9 +21,9 @@ public class Student extends Person {
 	 * @param age
 	 * @param studentID
 	 */
-	public Student(String name, int age, String studentID) {
+	public Student(String name, int age, Address address, String studentID) {
 		
-		super(name, age, null);
+		super(name, age, address);
 		this.studentID = studentID;
 	}
 	
@@ -64,7 +64,7 @@ public class Student extends Person {
 	 * Method to return a Students ID
 	 * @return the studentNo
 	 */
-	public String getStudentNo() {
+	public String getStudentID() {
 		return studentID;
 	}
 
@@ -72,7 +72,7 @@ public class Student extends Person {
 	 * Method to set a Students ID
 	 * @param studentNo the studentNo to set
 	 */
-	public void setStudentNo(String studentID) {
+	public void setStudentID(String studentID) {
 		this.studentID = studentID;
 	}
 
