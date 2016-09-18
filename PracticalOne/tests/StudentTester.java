@@ -12,7 +12,7 @@ public class StudentTester {
 		Student dave = new Student();
 		Student sue = new Student("Sue", 24, "l007812324");
 		
-		Person paul = new Person("Paul", 22);
+		Person paul = new Person("Paul", 22, null);
 		
 		ArrayList<Person> people = new ArrayList<Person>();
 		
