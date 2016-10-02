@@ -3,7 +3,7 @@ package main;
 public abstract class StringedInstrument extends Instrument {
 
 	/**
-	 * We create another class based on stringed instruments
+	 * We create another class called StringedInstrument
 	 * which extends an Instrument because a StringInstrument 'is a'
 	 * Instrument.
 	 * This contains one variable the number of strings that

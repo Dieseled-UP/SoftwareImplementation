@@ -12,6 +12,11 @@ public class ElectricGuitar extends StringedInstrument {
 		this.numberOfStrings = 6;
 	}
 	
+	/**
+	 * The loaded constructor will take user input
+	 * @param name
+	 * @param numberOfStrings
+	 */
 	public ElectricGuitar(String name, int numberOfStrings) {
 		
 		this.name = name;

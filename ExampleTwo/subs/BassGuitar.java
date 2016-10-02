@@ -13,7 +13,7 @@ public class BassGuitar extends StringedInstrument {
 	}
 	
 	/**
-	 * The load constructor will take user input
+	 * The loaded constructor will take user input
 	 * @param name
 	 * @param numberOfStrings
 	 */
